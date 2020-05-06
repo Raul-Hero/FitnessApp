@@ -27,10 +27,14 @@ namespace FitnessApp.BL.Model
             Name = name;
 
         }
-
+        /// <summary>
+        /// переопределение
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return Name; 
         }
+        
     }
 }
